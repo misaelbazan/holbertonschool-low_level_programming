@@ -20,7 +20,7 @@ int main(void)
 	/* your code goes there */
 	if (moduleOfN > 5)
 	{
-		printf("Last digit of %d is %d and is greater that 5\n", n, moduleOfN);
+		printf("Last digit of %d is %d and is greater than 5\n", n, moduleOfN);
 	}
 	else if (moduleOfN == 0)
 	{
