@@ -3,8 +3,6 @@
 /**
  * print_numbers - function
  *
- * @c: integer to execute the iteration
- *
  * Return: Nothing
  */
 void print_numbers(void)
@@ -15,6 +13,5 @@ void print_numbers(void)
 	{
 		_putchar(c);
 	}
-
 	_putchar('\n');
 }
