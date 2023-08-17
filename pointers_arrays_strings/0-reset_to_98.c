@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - Function that 
+ * reset_to_98 - Function that
  *
- * @*n: Parameter of a function
+ * @n: Parameter of a function
  *
  * Return: Nothing
  */
