@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_line - Function
+ * print_diagonal - Function that prints \ n times
  *
- * @n: Quantity of times that ('_') should be printed
+ * @n: Quantity of times that ('\') should be printed
  *
  * Return: Nothing
  */
