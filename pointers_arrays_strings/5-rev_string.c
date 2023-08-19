@@ -16,6 +16,7 @@ void rev_string(char *s)
 	for (start = 0, end = strlen(s) - 1; start < end; start++, end--)
 	{
 		char temp = s[start];
+
 		s[start] = s[end];
 		s[end] = temp;
 	}
