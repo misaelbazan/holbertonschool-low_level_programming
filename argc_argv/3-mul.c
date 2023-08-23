@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
 		int number1 = atof(argv[1]);
 		int number2 = atof(argv[2]);
 		int result = number1 * number2;
+
 		printf("%d\n", result);
 		return (0);
 	}
