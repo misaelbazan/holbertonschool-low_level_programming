@@ -1,13 +1,26 @@
 #include <stdio.h>
-#include <stdio.h>
 
+/**
+ * main - program that prints all the base 16 numbers
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	int hex;
+	int i;
+	int h;
 
-	for (hex = 1; hex < 16; hex++)
+	for (i = 0; i < 10; i++)
 	{
-		printf("%x", hex);
+		putchar('0' + i);
 	}
+
+	for (h = 'a'; h < 'g'; h++)
+	{
+		putchar(h);
+	}
+
+	putchar(10);
+
 	return (0);
 }
